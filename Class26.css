@@ -1,0 +1,131 @@
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* blog section */
+.blog-section{
+   padding: 100px 0;
+}
+.blog-content{}
+.blog-content h6{}
+.blog-content h6 a{}
+.blog-content h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.blog-content h2:after {
+    content: "";
+    position: absolute;
+    left: 244px;
+    bottom: -15px;
+    width: 50px;
+    height: 2px;
+    background: #3f6aec;
+}
+.blog-content p {
+    color: #606060;
+    margin-bottom: 70px;
+}
+
+.blog-admin {
+    background: #3763eb;
+    width: 158px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    left: 181px;
+    bottom: 170px;
+}
+.blog-items{
+    position: relative;
+}
+.blog-admin .image img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.blog-admin h6 {
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+.blog-text h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.blog-text p {
+    color: #606060;
+    font-size: 15px;
+}
+
+
+/* footer-widget section */
+.footer-widget-sec{
+    background: #081828;
+    padding-top: 60px;
+    color: #fff;
+}
+.footer-widget{}
+.footer-widget p {
+    font-size: 17px;
+    color: #fafafafa;
+    margin-bottom: 40px;
+}
+
+.widget-logo{}
+.widget-logo img {
+    width: 130px;
+    margin-bottom: 25px;
+}
+
+.widget-icon{}
+.widget-icon a{}
+.widget-icon a i {
+    color: #fff;
+    padding-right: 30px;
+}
+
+.footer-widget ul{}
+.footer-widget ul li{}
+.footer-widget ul li h4 {
+    margin-bottom: 26px;
+    font-size: 20px;
+    position: relative;
+}
+.footer-widget ul li h4::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 2px;
+    background: #3560e3;
+    height: 98%;
+    width: 3px;
+}
+.footer-widget ul li a {
+    color: #dddd;
+    margin-top: 10px;
+    display: block;
+}
+
+.footer-bottom{
+    margin-top: 40px;
+    border-top: 1px solid #777e8c;
+}
+
+.footer-bottom p {
+    color: #dddd;
+    padding: 25px 0;
+}
